@@ -7,8 +7,8 @@
     <title>Furniture Company</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="dist/css/lightbox.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link href="dist/css/lightbox.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-md p-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#trigger">
             <i class="fas fa-bars"></i>
-            <i class="fas fa-times"></i>
+            <!--            <i class="fas fa-times"></i>-->
         </button>
         <div class="collapse navbar-collapse d-md-flex justify-content-center" id="trigger">
             <ul class="navbar-nav">
@@ -33,13 +33,13 @@
                     <a href="index.html" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">About</a>
+                    <a href="#designs" class="nav-link" id="view1">Interior designs</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Furniture</a>
+                    <a href="#furniture" class="nav-link" id="view2">Furniture</a>
                 </li>
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link" id="view3">Contact </a>
                 </li>
             </ul>
         </div>
@@ -68,43 +68,43 @@
     </div>
 </section>
 
-<section class="gallery py-5">
+<section class="gallery py-5" id="designs">
     <div class="container">
         <div class="section-heading text-center">
             <h1 class="heading-title">Interiors designs</h1>
         </div>
         <div class="row no-gutters">
             <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/interior1.jpg" data-lightbox="interior">
-                    <img src="images/interior1.jpg" class="img-fluid" alt=""></a>
+                <a href="images/design4.jpg" data-lightbox="interior">
+                    <img src="images/design4.jpg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <a href="images/design3.jpg" data-lightbox="interior">
+                    <img src="images/design3.jpg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <a href="images/design1.jpg" data-lightbox="interior">
+                    <img src="images/design1.jpg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <a href="images/5.jpeg" data-lightbox="interior">
+                    <img src="images/5.jpeg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="lightbox-content col-12 col-md-4 ">
+                <a href="images/img-2.jpg" data-lightbox="interior">
+                    <img src="images/img-2.jpg" class="img-fluid" alt=""></a>
+            </div>
+            <div class="lightbox-content col-12 col-sm-6 col-md-4">
+                <a href="images/img1.jpg" data-lightbox="interior">
+                    <img src="images/img1.jpg" class="img-fluid" alt=""></a>
             </div>
             <div class="lightbox-content col-12 col-sm-6 col-md-4">
                 <a href="images/4.jpg" data-lightbox="interior">
                     <img src="images/4.jpg" class="img-fluid" alt=""></a>
             </div>
             <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/interior2.jpg" data-lightbox="interior">
-                    <img src="images/interior2.jpg" class="img-fluid" alt=""></a>
-            </div>
-            <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/5.jpeg" data-lightbox="interior">
-                    <img src="images/5.jpeg" class="img-fluid" alt=""></a>
-            </div>
-            <div class=" lightbox-content col-12 col-md-4 ">
-                <a href="images/interior2.jpg" data-lightbox="interior">
-                    <img src="images/interior2.jpg" class="img-fluid" alt=""></a>
-            </div>
-            <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/img6.jpg" data-lightbox="interior">
-                    <img src="images/img6.jpg" class="img-fluid" alt=""></a>
-            </div>
-            <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/interior2.jpg" data-lightbox="interior">
-                    <img src="images/interior2.jpg" class="img-fluid" alt=""></a>
-            </div>
-            <div class="lightbox-content col-12 col-sm-6 col-md-4">
-                <a href="images/interior2.jpg" data-lightbox="interior">
-                    <img src="images/interior2.jpg" class="img-fluid" alt=""></a>
+                <a href="images/design2.jpg" data-lightbox="interior">
+                    <img src="images/design2.jpg" class="img-fluid" alt=""></a>
             </div>
             <div class="lightbox-content col-12 col-sm-6 col-md-4">
                 <a href="images/interior2.jpg" data-lightbox="interior">
@@ -115,13 +115,13 @@
     </div>
 </section>
 
-<section class="testimonials py-5">
+<section class="testimonials py-5" id="furniture">
     <div class="container">
         <div class="section-heading text-center">
             <h1 class="heading-title">OUR BESTSELLERS</h1>
         </div>
         <div class="row">
-            <div class="col-md-8 m-auto">
+            <div class="col-md-10 m-auto">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-targer="#myCarousel" data-slide-to="0" class="active"></li>
@@ -133,37 +133,37 @@
                     <div class="carousel-inner">
                         <div class="item carousel-item active">
                             <div class="img-box">
-                                <img src="images/interior3.jpg" alt=""></div>
+                                <img src="images/3.jpg" alt=""></div>
                             <p class="descriptio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. </p>
-                            <p class="price"><strong>$900</strong></p>
+                            <p class="price"><strong>$150</strong></p>
 
                         </div>
                         <div class="item carousel-item ">
                             <div class="img-box">
 
-                                <img src="images/1.jpg" alt=""></div>
+                                <img src="images/2.jpg" alt=""></div>
                             <p class="descriptio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. </p>
-                            <p class="price"><strong>$900</strong></p>
-
-                        </div>
-
-                        <div class="item carousel-item ">
-                            <div class="img-box">
-                                <img src="images/1.jpg" alt=""></div>
-                            <p class="descriptio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. </p>
-                            <p class="price"><strong>$900</strong></p>
+                            <p class="price"><strong>$570</strong></p>
 
                         </div>
 
                         <div class="item carousel-item ">
                             <div class="img-box">
                                 <img src="images/1.jpg" alt=""></div>
+                            <p class="descriptio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. </p>
+                            <p class="price"><strong>$400</strong></p>
+
+                        </div>
+
+                        <div class="item carousel-item ">
+                            <div class="img-box">
+                                <img src="images/c.jpg" alt=""></div>
                             <p class="descriptio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor
                                 incididunt ut labore et dolore magna aliqua. </p>
@@ -186,26 +186,26 @@
 <footer class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-mb-0">
+            <div class="col-10 col-md-5 col-lg-4 mb-5 mb-mb-0" id="contact">
+                <h5 class="text-uppercase">Contact</h5>
+                <ul class="list-unstyled text-small mb-0">
+                    <li>
+                        <a>Phone: 503 136 645</a><br>
+                        <a>Email: contact@1978.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10 col-md-5 col-lg-4 mb-5 mb-mb-0">
                 <a href="index.html">
                     <div class="logo">
                         <h5 class="logo-heading">1978</h5>
                         <h3 class="logo-subhead">Furniture Company</h3>
                     </div>
                 </a>
-                <small class="d-block mt-2 text-muted">&copy; Copyright 2019. All rights reserved. </small>
+                <small class="d-block mt-2 text-muted">&copy; Copyright 2020. All rights reserved. </small>
             </div>
-            <div class="col-12 col-md-5 col-lg-4 mb-5 mb-mb-0">
-                <h5 class="text-uppercase">Contact</h5>
-                <ul class="list-unstyled text-small mb-0">
-                    <li>
-                        <a href="#" class="text-muted">Email</a>
-                        <a href="#" class="text-muted">Phone</a>
-                        <a href="#" class="text-muted">Facebook</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 col-md-5 col-lg-4">
+
+            <div class="col-10 col-md-5 col-lg-4">
                 <h5 class="text-uppercase">Newsletter</h5>
                 <p class="text-muted">Be sure to subscribe to our newsletter to receive updates and special
                     offers</p>
@@ -224,7 +224,8 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+<script src="dist/js/lightbox.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

@@ -24,15 +24,17 @@ header {
 }
 
 .logo {
-    color: #384147;
-    text-align: center;
+    color: #1e2147;
+    text-align: justify;
     user-select: none;
+
 }
 
 .logo-heading {
     font-family: "Playfair Display SC", sans-serif;
     font-size: 60px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .logo-subhead {
@@ -64,7 +66,7 @@ header {
     padding: 20px;
 }
 
-.nav-link {
+.nav-item {
     color: #fff;
     text-transform: uppercase;
     font-size: 12px;
@@ -131,11 +133,16 @@ header {
 .lightbox-content {
     position: relative;
     overflow: hidden;
+    border: 5px solid #fff;
 }
 
 .lightbox-content img {
     transition: transform 2s;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
 }
+
 
 .lightbox-content:hover img {
     transform: scale(1.2);
@@ -183,6 +190,7 @@ header {
     opacity: .5;
 }
 
+
 /*Testimonial*/
 .carousel {
     padding: 0 20px;
@@ -195,8 +203,8 @@ header {
 }
 
 .carousel .item .img-box {
-    width: 500px;
-    height: 400px;
+    /*width: 500px;*/
+    /*height: 400px;*/
     margin: 0 auto;
     padding: 5px;
     border: 1px solid #384147;
@@ -251,6 +259,7 @@ header {
 /*Footer*/
 footer {
     background-color: #151515;
+    flex-direction: column;
 }
 
 footer h5 {
@@ -275,6 +284,24 @@ footer h5 {
 .d-block {
     margin-left: 0px;
 
+}
+
+/**/
+.list-unstyled {
+
+    color: #fff;
+    text-align: center;
+}
+
+.text-uppercase {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+footer .logo-subhead {
+    color: #fff;
+    text-align: center;
 }
 
 /*Media queries*/
@@ -342,12 +369,14 @@ footer h5 {
         width: 80%;
     }
 
+
     .lb-close {
         position: absolute;
         float: none;
         top: -20px;
         right: 30px;
     }
+
 }
 
 

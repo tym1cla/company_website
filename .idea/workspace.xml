@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43fa072f-9fe8-4d76-a0af-175f96b96427" name="Default Changelist" comment="" />
+    <list default="true" id="43fa072f-9fe8-4d76-a0af-175f96b96427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/css/lightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/lightbox-plus-jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/lightbox-plus-jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/lightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/lightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/lightbox.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/lightbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/lightbox.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/lightbox-plus-jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/lightbox-plus-jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/img9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/interior1 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/interior3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZEJvPUcTga2lhAactprtIHhLH7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,8 +56,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
@@ -50,7 +86,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584398549801</updated>
-      <workItem from="1584398553679" duration="35093000" />
+      <workItem from="1584398553679" duration="35693000" />
+      <workItem from="1584533688398" duration="2489000" />
+      <workItem from="1584560069181" duration="6798000" />
+      <workItem from="1584568150474" duration="614000" />
     </task>
     <servers />
   </component>
@@ -58,13 +97,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="667" y="240" width="649" height="623" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584568243877">
+      <screen x="67" y="27" width="1853" height="1052" />
+    </state>
+    <state x="667" y="240" width="649" height="623" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1052@67.27.1853.1052" timestamp="1584568243877" />
     <state x="615" y="239" key="run.anything.popup" timestamp="1584475399151">
       <screen x="67" y="27" width="1853" height="1052" />
     </state>
     <state x="615" y="239" key="run.anything.popup/67.27.1853.1052@67.27.1853.1052" timestamp="1584475399151" />
-    <state x="1314" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1584475023821">
+    <state x="1314" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1584568213615">
       <screen x="67" y="27" width="1853" height="1052" />
     </state>
-    <state x="1314" y="44" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1052@67.27.1853.1052" timestamp="1584475023821" />
+    <state x="1314" y="44" width="840" height="1034" key="search.everywhere.popup/67.27.1853.1052@67.27.1853.1052" timestamp="1584568213615" />
   </component>
 </project>
